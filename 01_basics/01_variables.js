@@ -2,6 +2,7 @@ const accountId = 144553
 let accountEmail = "shaurya@google.com"
 var accountPassword = "12345"
 accountCity = "Jaipur"
+let accountState;
 
 // accountId = 32    not allowed
 
@@ -11,4 +12,4 @@ accountCity = "bengluru"
 
 console.log(accountId);
 
-console.table([accountId, accountEmail, accountPassword, accountCity ])
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState ])
